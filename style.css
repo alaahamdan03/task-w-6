@@ -1,0 +1,357 @@
+body{
+    color: #161616;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header-content-row{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100;
+    background-color:#161616;
+    height: 7vh;
+}
+.header-logo{
+    margin-top: 30px;
+    
+
+}
+.header-social-media-icon{
+    margin-top: 30px;
+    
+    
+}
+.ul ,li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.header-social-media-icon li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header-search{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 21px;
+    border: transparent;
+}
+.header-nav{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+  
+}
+.header-nav ul li{
+   
+    text-decoration: none;
+    padding: 20px;
+    font-size: 21px;
+    
+
+}
+.header-nav a{
+    text-decoration: none;
+    color: gray;
+}
+.header-nav a:hover{
+    color: #FFFFFF;
+}
+
+ 
+.main-side{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-img{
+    background-image: url('Philosophy/beetle-400.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 48%;
+
+}
+.down-img {
+    background-image: url(Philosophy/featured-watch.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 48%;
+
+}
+    
+
+
+.main{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+.countiner{
+width: 70%;
+height: 50vh;
+display: flex;
+justify-items: center;
+
+}
+
+.main-img{
+    
+    background-image: url("Philosophy/featured-guitarman.jpeg");
+    width: 60%;
+    background-size: cover;
+    position: relative;
+    transition: all 0.5 ease-in-out;
+    
+    
+  
+}
+.main-img:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.main-img img{
+    width: 100%;
+}
+.text-main-img{
+   position: absolute;
+   left: 6rem;
+   bottom: 0;
+   display: block;
+}
+.main-img button{
+    background-color:#01AEF0 ;
+    color: #FFFFFF;
+    padding : 5px;
+    font-size: 15px;
+    border: none;
+    
+}
+.main-img h1{
+    color: white;
+    font-size: 40px;
+}
+.main-img a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.avatar{
+width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+}
+
+.side-img{
+   
+   
+    background-size: cover;
+    width: 40%; 
+   
+
+}
+
+
+
+
+.top-img{
+    background-image:url("Philosophy/featured-beetle.jpeg");
+    background-size: cover;
+    height: 50%;
+    position: relative;
+
+}
+.down-img{
+    background-image: url("Philosophy/featured-watch.jpeg");
+    background-size: cover;
+    height: 50%;
+    position: relative;
+
+}
+.text-img{
+    position: absolute;
+    bottom: 0%;
+    left: 3rem;
+}
+.side-img button{
+    background-color:  #679A23;
+    border: 1px solid transparent;
+    padding: 3px;
+}
+.side-img a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.m-content{
+    background-color: #F2F2F2;
+    margin-top: 3rem;
+}
+.content-imgs{
+    width: 80%;
+    background-color:(#F2F2F2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    margin: auto;
+    box-sizing: border-box;
+  
+}
+
+
+.f-img-text-content{
+    
+    width: 25%;
+    height: 60vh;
+    border: 1px solid transparent;
+    overflow: hidden;
+    margin: 15px;
+    
+    
+
+}
+.f-img-text a{
+    text-decoration: none;
+   text-transform: capitalize;
+   color: black;
+   font-size: 24px;
+}
+
+   
+
+.f-img img{
+    height: 50%;
+}
+.f-img img:hover{
+    transform: scale(1.1);
+}
+.f-img-text{
+    height: 50%;
+    padding: 10px;
+   
+    background-color: #FFFFFF;
+    
+
+
+}
+
+
+
+.f-img-date a{
+color: #858585;
+border: none;
+} 
+
+
+.f-img-p{
+    color: #858585;
+    padding: 3px;
+    margin: 7px;
+    font-size: 18px;
+}
+.f-img-meta a{
+    color: rgb(0, 60, 255);
+    font-size: 14px;
+    margin: auto;
+    transition: all .45;
+
+}
+.f-img-meta a:hover{
+    color: black;
+}
+
+.s-img-text-content{
+    background-image: url(../images/icons/icon-quote.svg);
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    
+    margin-left: auto;
+    margin-right: auto;
+    left: 50;
+    right: 0;
+    text-align: center;
+
+}
+/*  */
+.s-extra{
+    background-color: #FFFFFF;
+   ;
+    padding-top: 7rem;
+}
+.s-extra-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+   
+}
+
+    
+    
+
+.s-extra-popular{
+    width: 70%;
+    font-size: 24px;
+
+   
+
+}
+.s-extra-about{
+    width:30%;
+    
+    font-size: 20px;
+    color:#656565 ;
+
+}
+.s-extra-about h5{
+font-size: 30px;
+color: black;
+}
+.s-extra-about a{
+    color: #161616;
+}
+
+.thumb{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags{
+    text-align: center;
+    width: 40%;
+    height: 20vh;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+
+}
+.tags h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.tags a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #d1cfcf;
+    color: #161616;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.tags-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
